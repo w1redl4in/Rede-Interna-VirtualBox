@@ -10,8 +10,20 @@
   ### Configuração interfaces:
   #### Ubuntu 18:
     sudo su # Virando root
-    
     cd /etc/netplan # Entrando no diretório do 50-cloud-init.yaml 
+    
+    network:
+        ethernets:
+            enp0s3:
+                addresses: []
+                dhcp4: true
+            enp0s8:
+                addresses: [192.168.110.254/24]
+                dhcp4: false
+            enp0s9:
+                addresses: [192.168.100.254/24]
+                dhcp4: false
+        version: 2
     
     
     
