@@ -26,7 +26,7 @@
                 dhcp4: false
         version: 2
    #### Ubuntu 14:
-   sudo su # Virando root
+   sudo su # Virando root  
    cd /etc/network # Entrando no diretório do interfaces 
    cp interfaces interfaces.bkp # Criando backup
      
