@@ -9,9 +9,9 @@
 
   ### Configuração interfaces:
   #### Ubuntu 18:
-    sudo su # Virando root
-    cd /etc/netplan # Entrando no diretório do 50-cloud-init.yaml 
-    cp 50-cloud-init.yaml 50-cloud-init.yaml.bkp # Criando backup
+  sudo su    #Virando root  
+  cd /etc/netplan   #Entrando no diretório do 50-cloud-init.yaml   
+  cp 50-cloud-init.yaml 50-cloud-init.yaml.bkp      #Criando backup  
     
     network:
         ethernets:
