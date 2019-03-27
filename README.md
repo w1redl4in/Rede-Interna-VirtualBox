@@ -9,6 +9,9 @@
 
   ### Configuração interfaces:
   #### Ubuntu 18:
-    sudo su
-    cd /etc/
+    sudo su # Virando root
+    
+    cd /etc/netplan # Entrando no diretório do 50-cloud-init.yaml 
+    
+    
     
