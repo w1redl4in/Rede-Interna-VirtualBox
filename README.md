@@ -1,4 +1,5 @@
-# Configurações VirtualBox                  # SIGNIFICA COMENTÁRIO
+# Configurações VirtualBox                  
+   ========= HASHTAG (#) SIGNIFICA COMENTÁRIO ==========
 
   ## GATEWAY (G1)
     É necessária a criação de 3 interfaces na máquina Gateway.
