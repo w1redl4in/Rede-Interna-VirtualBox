@@ -7,7 +7,7 @@
                                        Adaptador 2 > Rede Interna > Defina um nome para esta rede. Ex: rede1
                                        Adaptador 3 > Rede Interna > Defina um nome para esta rede. Ex: rede2
 
-  ### Configuração interfaces:
+  ### Configuração de interfaces:
   #### Ubuntu 18:
   sudo su    // Virando root  
   cd /etc/netplan   // Entrando no diretório do 50-cloud-init.yaml   
