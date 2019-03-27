@@ -55,7 +55,8 @@
   
   ## CLIENTE 1 (S2)
   ### Na Virtualbox
-      Configurações > Rede/Network > Rede Interna/Internal Network > Entre com o nome da rede interna correspondente. Ex: rede1
+      Configurações > Rede/Network > Rede Interna/Internal Network 
+      Entre com o nome da rede interna correspondente Ex: rede1
       
   ### Configurando IP Fixo e Gateway
   #### Ubuntu 18:
@@ -65,10 +66,16 @@
                 addresses: [192.168.100.11/24]
                 dhcp4: false
                 gateway4: 192.168.100.254
-        version: 2    
-        
-        
+        version: 2     
    netplan apply   // Aplicando novas configurações
+   
+   #### Ubuntu 14:
+      auto eth0
+      iface eth0 inet static
+      address 192.168.110.11
+      netmask 255.255.255.0
+      gateway 192.168.110.254
+   ifdown -a && ifup -a
    
       
      
