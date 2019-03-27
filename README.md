@@ -1,5 +1,5 @@
 # Configurações VirtualBox                  
-   ========= HASHTAG (#) SIGNIFICA COMENTÁRIO ==========
+   // = Comentários 
 
   ## GATEWAY (G1)
     É necessária a criação de 3 interfaces na máquina Gateway.
@@ -9,9 +9,9 @@
 
   ### Configuração interfaces:
   #### Ubuntu 18:
-  sudo su    #Virando root  
-  cd /etc/netplan   #Entrando no diretório do 50-cloud-init.yaml   
-  cp 50-cloud-init.yaml 50-cloud-init.yaml.bkp      #Criando backup  
+  sudo su    // Virando root  
+  cd /etc/netplan   // Entrando no diretório do 50-cloud-init.yaml   
+  cp 50-cloud-init.yaml 50-cloud-init.yaml.bkp      // Criando backup  
     
     network:
         ethernets:
@@ -27,9 +27,9 @@
         version: 2
    #### Ubuntu 14:
    
-  sudo su      #Virando root  
-  cd /etc/network     #Entrando no diretório do interfaces  
-  cp interfaces interfaces.bkp    #Criando backup  
+  sudo su      // Virando root  
+  cd /etc/network     // Entrando no diretório do interfaces  
+  cp interfaces interfaces.bkp    // Criando backup  
      
      auto eth0
      iface eth0 inet dhcp
