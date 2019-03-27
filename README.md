@@ -44,6 +44,15 @@
      address 192.168.110.254
      netmask 255.255.255.0
      
+  ### Configurando Gateway
+      ufw enable
+      echo 1 > /proc/sys/net/ipv4/ip_forward
+      iptables -t nat -o enp0s3 -A POSTROUTING -j MASQUERADE 
+      
+  ### Gateway finalizado!
+  
+  ## CLIENTE 1 (S2)
+     
     
     
     
