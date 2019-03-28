@@ -19,6 +19,7 @@
                 addresses: [192.168.100.254/24]
                 dhcp4: false
         version: 2
+   netplan apply
    #### Ubuntu 14:
      auto eth0
      iface eth0 inet dhcp
@@ -32,13 +33,13 @@
      iface eth2 inet static
      address 192.168.110.254
      netmask 255.255.255.0
-   
    ifdown -a && ifup -a   // Aplicando novas configurações
      
   ### Configurando Gateway
       ufw enable
       echo 1 > /proc/sys/net/ipv4/ip_forward
       iptables -t nat -o enp0s3 -A POSTROUTING -j MASQUERADE  
+  
       
       
       
@@ -62,7 +63,7 @@
                 dhcp4: false
                 gateway4: 192.168.110.254
         version: 2     
-   netplan apply   // Aplicando novas configurações
+   netplan apply
    
    #### Ubuntu 14:
       auto eth0
@@ -86,7 +87,7 @@
                 dhcp4: false
                 gateway4: 192.168.100.254
         version: 2     
-   netplan apply   // Aplicando novas configurações
+   netplan apply
    
    #### Ubuntu 14:
       auto eth0
