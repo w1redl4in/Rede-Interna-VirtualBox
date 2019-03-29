@@ -97,7 +97,8 @@
       gateway 192.168.100.254
    ifdown -a && ifup -a
       
-     
+   # Vídeo "explicativo" 
+   https://youtu.be/nSMN6zdd9OA
     
     
     
