@@ -104,6 +104,6 @@
     
     
    # Referências:
-      Fatec Osasco - Redes de Computadores
-      Professor Leandro Palha 
+      Fatec Osasco - Redes de Computadores - http://www.fatecosasco.edu.br
+      Professor Leandro Palha - https://www.youtube.com/channel/UC1fek237kXqkmU_lQVk5OCw
     
