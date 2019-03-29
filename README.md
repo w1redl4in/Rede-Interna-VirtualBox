@@ -96,8 +96,9 @@
       netmask 255.255.255.0
       gateway 192.168.100.254
    ifdown -a && ifup -a
-      
-   [Vídeo explicativo](https://youtubevideourl)
+   
+   # Vídeo explicativo
+   [YouTube](https://youtubevideourl)
     
    ![](https://github.com/w1redl4in/.dotfiles/blob/master/finallymesatopo.jpg)
     
