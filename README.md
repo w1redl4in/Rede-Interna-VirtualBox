@@ -98,7 +98,7 @@
    ifdown -a && ifup -a
    
    # Vídeo explicativo
-   [YouTube](https://youtubevideourl)
+   [YouTube](https://youtu.be/AzYgLqNN0xg)
     
    ![](https://github.com/w1redl4in/.dotfiles/blob/master/finallymesatopo.jpg)
     
