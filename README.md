@@ -103,3 +103,7 @@
    ![](https://github.com/w1redl4in/.dotfiles/blob/master/finallymesatopo.jpg)
     
     
+   # Referências:
+      Fatec Osasco - Redes de Computadores
+      Professor Leandro Palha 
+    
