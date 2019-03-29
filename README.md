@@ -100,6 +100,6 @@
    # Vídeo "explicativo" 
    https://youtu.be/nSMN6zdd9OA
     
-   ![](https://github.com/w1redl4in/.dotfiles/blob/master/Prints/finallymesatopo.jpg)
+   ![](https://github.com/w1redl4in/.dotfiles/finallymesatopo.jpg)
     
     
