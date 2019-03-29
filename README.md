@@ -97,6 +97,13 @@
       gateway 192.168.100.254
    ifdown -a && ifup -a
    
+   ### Configurando DNS 
+   #### Definir nameserver como 8.8.8.8
+    cd /etc/
+    nano resolv.conf
+    nameserver 8.8.8.8
+   
+   
    # Vídeo explicativo
    [YouTube](https://youtu.be/AzYgLqNN0xg)
     
