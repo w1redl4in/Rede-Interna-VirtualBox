@@ -36,7 +36,6 @@
    ifdown -a && ifup -a   // Aplicando novas configurações
      
   ### Configurando Gateway
-      ufw enable
       echo 1 > /proc/sys/net/ipv4/ip_forward
       iptables -t nat -o enp0s3 -A POSTROUTING -j MASQUERADE  
   
